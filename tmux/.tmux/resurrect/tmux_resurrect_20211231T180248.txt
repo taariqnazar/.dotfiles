@@ -1,0 +1,9 @@
+pane	macro-app	1	0	:	1	:/home/tariq/Projects/macro-app	1	nvim	:nvim .
+pane	macro-app	2	1	:*	1	:/home/tariq/Projects/macro-app	1	npm	:npm start
+pane	macro-app	3	0	:-	1	:/home/tariq	1	zsh	:
+pane	macro-app	4	0	:	1	:/home/tariq	1	zsh	:
+window	macro-app	1	:vim	0	:	bbbe,158x43,0,0,1	off
+window	macro-app	2	:server	1	:*	bbbf,158x43,0,0,2	off
+window	macro-app	3	:android simulator	0	:-	bbc0,158x43,0,0,3	off
+window	macro-app	4	:git	0	:	bbc1,158x43,0,0,4	off
+state	macro-app	
