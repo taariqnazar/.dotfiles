@@ -23,7 +23,7 @@ conda_info() {
 }
 # User symbol
 user_symbol() { 
-    echo "%{$FG[001]%}%{$reset_color%}%{$FG[002]%}漏%{$reset_color%}"
+    echo "%B%{$FG[001]%}->%{$reset_color%}"
 }
 
 # set the git_prompt_info text
