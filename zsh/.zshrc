@@ -2,8 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/tariq/.oh-my-zsh"
-
+export ZSH="/Users/tana2011/.oh-my-zsh"
+export PATH=/opt/homebrew/bin:$PATH
 export ANDROID_SDK=/home/tariq/Android/Sdk
 export PATH=$HOME/Android/Sdk/platform-tools:$PATH
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
