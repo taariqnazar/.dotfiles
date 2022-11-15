@@ -45,8 +45,6 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "justinmk/vim-sneak"
-  use "kyazdani42/nvim-tree.lua"
-  use "preservim/nerdcommenter"
   use "mhinz/vim-startify"
   use "jiangmiao/auto-pairs"
   use "nvim-lua/plenary.nvim"
@@ -61,31 +59,13 @@ return packer.startup(function(use)
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
 
-  -- cmp pluggins
-  use "hrsh7th/cmp-nvim-lsp"
-  use "hrsh7th/cmp-buffer"
-  use "hrsh7th/cmp-path"
-  use "hrsh7th/cmp-cmdline"
-  use "hrsh7th/nvim-cmp"
-  use "hrsh7th/cmp-nvim-lsp"
-
   -- snippets
   --use "L3MON4D3/LuaSnip" --snippet engine
   --use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
-  use "sirver/ultisnips"
-  use 'quangnguyen30192/cmp-nvim-ultisnips'
-  -- LSP
-  use "neovim/nvim-lspconfig"
-  use "williamboman/nvim-lsp-installer"
-
+  --
   -- Telescope
   use {"nvim-telescope/telescope.nvim",
         requires = { {'nvim-lua/plenary.nvim'} }
-    }
-  -- Treesitter
- use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
     }
   -- Git
   use "tpope/vim-fugitive"
