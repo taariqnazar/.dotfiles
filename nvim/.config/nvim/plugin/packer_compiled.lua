@@ -104,6 +104,16 @@ _G.packer_plugins = {
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -113,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["nvcode-color-schemes.vim"] = {
     loaded = true,
@@ -129,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
+  ["nvim-jellybeans"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-jellybeans",
+    url = "https://github.com/kabouzeid/nvim-jellybeans"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -138,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,

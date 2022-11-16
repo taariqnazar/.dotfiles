@@ -67,10 +67,13 @@ return packer.startup(function(use)
   -- Appearance
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "onsails/lspkind-nvim"
+  use { "kabouzeid/nvim-jellybeans", requires = "rktjmp/lush.nvim" }
+  use "rebelot/kanagawa.nvim"
+  use 'Mofiqul/dracula.nvim'
   use "christianchiarulli/nvcode-color-schemes.vim"
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
-
+  use "nvim-treesitter/nvim-treesitter"
   -- snippets
   --use "L3MON4D3/LuaSnip" --snippet engine
   --use "rafamadriz/friendly-snippets" -- a bunch of snippets to use

@@ -1,12 +1,7 @@
-require 'colorizer'.setup()
 vim.cmd [[
     let g:nvcode_termcolors=256
 
     syntax on
-    colorscheme nvcode
+    colorscheme jellybeans
 
-    if (has("termguicolors"))
-        set termguicolors
-        hi LineNr ctermbg=NONE guibg=NONE
-    endif
 ]]
