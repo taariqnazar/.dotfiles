@@ -43,7 +43,6 @@ packer.init {
 return packer.startup(function(use)
   -- My plugins here
   use "wbthomason/packer.nvim" -- Have packer manage itself
-  use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "justinmk/vim-sneak"
   use "mhinz/vim-startify"
   use "jiangmiao/auto-pairs"
@@ -51,6 +50,19 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "romgrk/barbar.nvim"
   use "norcalli/nvim-colorizer.lua"
+
+  -- CMP
+  use {
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/cmp-buffer',
+    'hrsh7th/cmp-path',
+    'hrsh7th/cmp-cmdline',
+    'hrsh7th/nvim-cmp',
+  }
+
+  -- LSP
+  use 'williamboman/nvim-lsp-installer'
+  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 
   -- Appearance
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
