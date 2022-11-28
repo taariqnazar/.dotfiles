@@ -7,7 +7,10 @@ export PATH=/opt/homebrew/bin:$PATH
 export ANDROID_SDK=/home/tariq/Android/Sdk
 export PATH=$HOME/Android/Sdk/platform-tools:$PATH
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
+export PATH="$PATH:$(go env GOPATH)/bin"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 
 
 # Set name of the theme to load --- if set to "random", it will

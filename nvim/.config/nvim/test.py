@@ -11,6 +11,5 @@ class Swag:
         Some comments on add
         """
         return a+b
-
 t = Swag()
 

@@ -1,5 +1,4 @@
 local opts = {noremap = true, silent = true}
-local term_opts = {silent = true}
 
 local keymap = vim.api.nvim_set_keymap
 
@@ -25,16 +24,16 @@ keymap("n", "J", "}", opts)
 keymap("n", "K", "{", opts)
 
 -- Move split panes
-keymap("n", "<C-h>", "<C-W>H", opts)
-keymap("n", "<C-j>", "<C-W>J", opts)
-keymap("n", "<C-k>", "<C-W>K", opts)
-keymap("n", "<C-l>", "<C-W>L", opts)
+keymap("n", "<C-h>", "<C-w>h", opts)
+keymap("n", "<C-j>", "<C-w>j", opts)
+keymap("n", "<C-k>", "<C-w>k", opts)
+keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Move between panes
-keymap("n", "<A-h>", "<C-w>h", opts)
-keymap("n", "<A-j>", "<C-w>j", opts)
-keymap("n", "<A-k>", "<C-w>k", opts)
-keymap("n", "<A-l>", "<C-w>l", opts)
+keymap("n", "<A-h>", "<A-w>h", opts)
+keymap("n", "<A-j>", "<A-w>j", opts)
+keymap("n", "<A-k>", "<A-w>k", opts)
+keymap("n", "<A-l>", "<A-w>l", opts)
 
 -- New line
 keymap("n", "<Leader>o", 'o<Esc>0"_D', opts)

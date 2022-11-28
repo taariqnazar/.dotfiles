@@ -50,19 +50,22 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "romgrk/barbar.nvim"
   use "norcalli/nvim-colorizer.lua"
+  use "nvim-tree/nvim-tree.lua"
 
-  -- CMP
+  -- snippets
+  use{"L3MON4D3/LuaSnip"}
+
+  -- CMP & LSP
+  use 'williamboman/nvim-lsp-installer'
   use {
+    'neovim/nvim-lspconfig',
     'hrsh7th/cmp-nvim-lsp',
     'hrsh7th/cmp-buffer',
     'hrsh7th/cmp-path',
     'hrsh7th/cmp-cmdline',
     'hrsh7th/nvim-cmp',
+    'saadparwaiz1/cmp_luasnip'
   }
-
-  -- LSP
-  use 'williamboman/nvim-lsp-installer'
-  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 
   -- Appearance
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
@@ -74,10 +77,9 @@ return packer.startup(function(use)
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
   use "nvim-treesitter/nvim-treesitter"
-  -- snippets
-  --use "L3MON4D3/LuaSnip" --snippet engine
-  --use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
   --
+  
+  
   -- Telescope
   use {"nvim-telescope/telescope.nvim",
         requires = { {'nvim-lua/plenary.nvim'} }
@@ -85,6 +87,9 @@ return packer.startup(function(use)
   -- Git
   use "tpope/vim-fugitive"
   use "tpope/vim-rhubarb"
+
+  -- Latex
+  use 'lervag/vimtex'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
