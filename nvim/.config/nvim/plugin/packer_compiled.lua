@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvcode-color-schemes.vim"] = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim",
@@ -193,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
