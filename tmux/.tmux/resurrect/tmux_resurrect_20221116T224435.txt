@@ -1,9 +1,0 @@
-pane	0	0	0	:-	1	:/Users/tana2011	1	zsh	:
-pane	0	1	1	:*	1	:/Users/tana2011	1	zsh	:
-pane	1	0	1	:*	1	:/Users/tana2011	1	zsh	:
-pane	2	1	1	:*	1	:/Users/tana2011	1	zsh	:
-window	0	0	:docker	0	:-	cb3e,130x29,0,0,1	off
-window	0	1	:2new	1	:*	cb3d,130x29,0,0,0	off
-window	1	0	:zsh	1	:*	cb3f,130x29,0,0,2	:
-window	2	1	:zsh	1	:*	cb40,130x29,0,0,3	:
-state	2	

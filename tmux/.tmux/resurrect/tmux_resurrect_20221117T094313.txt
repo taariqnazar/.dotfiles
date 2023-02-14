@@ -1,7 +1,0 @@
-pane	TS	1	1	:*	1	:/Users/tana2011/Projects/trading-system	1	zsh	:
-pane	TS	2	0	:	1	:/Users/tana2011/Projects/trading-system	1	zsh	:
-pane	TS	3	0	:-	1	:/Users/tana2011/Projects/trading-system	1	nvim	:nvim execution/src/
-window	TS	1	:main	1	:*	cb3d,130x29,0,0,0	off
-window	TS	2	:zsh	0	:	cb3e,130x29,0,0,1	:
-window	TS	3	:execution	0	:-	cb3f,130x29,0,0,2	off
-state	TS	

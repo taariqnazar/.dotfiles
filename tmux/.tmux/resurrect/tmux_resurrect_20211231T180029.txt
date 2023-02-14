@@ -1,9 +1,0 @@
-pane	macro-app	1	1	:*	1	:/home/tariq	1	zsh	:
-pane	macro-app	2	0	:-	1	:/home/tariq	1	zsh	:
-pane	macro-app	3	0	:	1	:/home/tariq	1	zsh	:
-pane	macro-app	4	0	:	1	:/home/tariq	1	zsh	:
-window	macro-app	1	:vim	1	:*	bbbd,158x43,0,0,0	off
-window	macro-app	2	:server	0	:-	bbbe,158x43,0,0,1	off
-window	macro-app	3	:android simulator	0	:	bbbf,158x43,0,0,2	off
-window	macro-app	4	:git	0	:	bbc0,158x43,0,0,3	off
-state	macro-app	
