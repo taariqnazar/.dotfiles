@@ -72,7 +72,12 @@ return packer.startup(function(use)
 	-- Appearance
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
 	use("onsails/lspkind-nvim")
-	use({ "ellisonleao/gruvbox.nvim" })
+	use({
+		"morhetz/gruvbox",
+		config = function()
+			vim.cmd.colorscheme("gruvbox")
+		end,
+	})
 	use("ryanoasis/vim-devicons")
 	use("kyazdani42/nvim-web-devicons")
 	use("nvim-treesitter/nvim-treesitter")
