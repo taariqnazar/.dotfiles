@@ -1,0 +1,93 @@
+pane	cpp_finance	1	1	:*	1	:/Users/tana2011/Projects/pricing-engine	1	zsh	:grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox -H #include BlackScholesModel.h ./src/*.cpp\012
+nvim makefile
+pane	cpp_finance	2	0	:-	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim	1	zsh	:
+pane	notes	1	0	:-	1	:/Users/tana2011	1	nvim	:nvim /Users/tana2011/Documents/SU/notes/notes.tex .
+nvim test.tex
+pane	notes	2	0	:	1	:/Users/tana2011/Documents/SU/notes	1	zsh	:
+pane	notes	3	1	:*	1	:/Users/tana2011/Documents/SU/project1/simulation	1	zsh	:/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+pane	notes	4	0	:	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim	1	zsh	:
+pane	trading-system	1	1	:*	1	:/Users/tana2011/Projects/trading-system	1	zsh	:
+pane	trading-system	2	0	:	1	:/Users/tana2011/Projects/trading-system/signals-combiner	1	nvim	:python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+nvim src/main.py
+clear
+clear
+python
+python src/main.py
+python src/main.py
+python
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+pane	trading-system	3	0	:-	1	:/Users/tana2011/Projects/trading-system/execution	1	nvim	:python src/main.py
+nvim src/main.py
+python src/main.py
+nvim src/main.py
+python src/main.py
+python src/main.py
+pane	trading-system	4	0	:	1	:/Users/tana2011/Projects/trading-system/execution	1	zsh	:python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+pane	webapp	1	0	:-	1	:/Users/tana2011/Projects/webapp/blog	1	zsh	:node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js dev
+/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+pane	webapp	2	1	:*	1	:/Users/tana2011/Projects/webapp/blog	1	zsh	:npm run dev   
+npm run dev -o     
+npm run dev -o     
+window	cpp_finance	1	:main	1	:*	56d5,138x30,0,0,16	off
+window	cpp_finance	2	:nvim	0	:-	65d7,130x29,0,0,18	off
+window	notes	1	:nvim	0	:-	6231,122x27,0,0,12	:
+window	notes	2	:zsh	0	:	e23a,122x27,0,0,69	:
+window	notes	3	:zsh	1	:*	65d5,130x29,0,0,73	:
+window	notes	4	:snippets	0	:	65da,130x29,0,0,59	off
+window	trading-system	1	:compose	1	:*	e913,196x39,0,0,43	off
+window	trading-system	2	:signals	0	:	e434,183x37,0,0,44	off
+window	trading-system	3	:execution	0	:-	6434,183x37,0,0,53	off
+window	trading-system	4	:exec-run	0	:	6434,183x37,0,0,72	off
+window	webapp	1	:zsh	0	:-	65d2,130x29,0,0,70	:
+window	webapp	2	:zsh	1	:*	65db,130x29,0,0,79	:
+state	webapp	notes

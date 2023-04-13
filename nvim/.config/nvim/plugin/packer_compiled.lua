@@ -114,15 +114,15 @@ _G.packer_plugins = {
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["dracula.nvim"] = {
+  ["friendly-snippets"] = {
     loaded = true,
-    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["kanagawa.nvim"] = {
+  ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
-    url = "https://github.com/rebelot/kanagawa.nvim"
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -134,20 +134,10 @@ _G.packer_plugins = {
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
-  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
-  },
-  ["nvcode-color-schemes.vim"] = {
-    loaded = true,
-    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim",
-    url = "https://github.com/christianchiarulli/nvcode-color-schemes.vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -158,11 +148,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
-  },
-  ["nvim-jellybeans"] = {
-    loaded = true,
-    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/nvim-jellybeans",
-    url = "https://github.com/kabouzeid/nvim-jellybeans"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,

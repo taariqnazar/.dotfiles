@@ -1,0 +1,63 @@
+pane	cpp_finance	1	1	:*	1	:/Users/tana2011/Projects/pricing-engine	1	zsh	:grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox -H #include BlackScholesModel.h ./src/*.cpp\012
+nvim makefile
+pane	cpp_finance	2	0	:-	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim	1	zsh	:
+pane	notes	1	0	:	1	:/Users/tana2011/Documents/SU/project1/draft	1	nvim	:nvim draft.tex
+nvim test.tex
+pane	notes	2	0	:	1	:/Users/tana2011/Documents/SU/project1/draft	1	zsh	:
+pane	notes	3	0	:	1	:/Users/tana2011/Documents/SU/notes	1	nvim	:nvim notes.tex
+pane	notes	4	0	:-	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim/snippets	1	nvim	:nvim tex.snippets
+pane	notes	5	1	:*	1	:/Users/tana2011/Documents/SU/project1/simulation	1	zsh	:/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+pane	trading-system	1	0	:-	1	:/Users/tana2011/Projects/trading-system	1	zsh	:
+pane	trading-system	2	0	:	1	:/Users/tana2011/Projects/trading-system/signals-combiner	1	nvim	:python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+clear
+clear
+python
+python src/main.py
+python src/main.py
+python
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+python
+python src/main.py
+python src/main.py
+python src/main.py
+python src/main.py
+nvim src/main.py
+pane	trading-system	3	1	:*	1	:/Users/tana2011/Projects/trading-system/execution	1	zsh	:python src/main.py
+python src/main.py
+pane	webapp	1	0	:-	1	:/Users/tana2011/Projects/webapp/nginx	1	zsh	:
+pane	webapp	2	1	:*	1	:/Users/tana2011	1	zsh	:
+window	cpp_finance	1	:main	1	:*	56d5,138x30,0,0,16	off
+window	cpp_finance	2	:nvim	0	:-	65d7,130x29,0,0,18	off
+window	notes	1	:nvim	0	:	56d1,138x30,0,0,12	:
+window	notes	2	:zathura	0	:	65d2,130x29,0,0,13	off
+window	notes	3	:nvim	0	:	56d8,138x30,0,0,57	:
+window	notes	4	:snippets	0	:-	56da,138x30,0,0,59	off
+window	notes	5	:sim	1	:*	e5d1,130x29,0,0,60	off
+window	trading-system	1	:compose	0	:-	e5d3,130x29,0,0,43	off
+window	trading-system	2	:signals	0	:	dc54,113x43,0,0,44	off
+window	trading-system	3	:execution	1	:*	65d4,130x29,0,0,53	off
+window	webapp	1	:zsh	0	:-	e5d2,130x29,0,0,61	:
+window	webapp	2	:ssh	1	:*	e5d3,130x29,0,0,62	off
+state	webapp	

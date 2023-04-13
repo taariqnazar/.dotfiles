@@ -1,7 +1,7 @@
 #My snippets
 snippet begin
-	\begin{$1}[$2]
-	$0
+	\begin{$1}
+	$2
 	\end{$1}
 
 snippet geq
@@ -11,32 +11,45 @@ snippet leq
 	\leq 
 
 snippet int
-	\int_{$1}^{$2}$0
+	\int_{$1}^{$2}
+
+snippet sum
+	\sum_{$1}^{$2}
 
 snippet frac
-	\frac{$1}{$2}$0
+	\frac{$1}{$2}
 
 snippet al
 	\begin{align*}
-		$0
+		$1
 	\end{align*}
 	
 
 snippet nal
 	\begin{align}
-		$0
+		$1
 	\end{align}
-	
 
 snippet ie
-	\( $1 \)$0
+	\( $1 \)$2
 
 snippet cal "Math Cal"
-	\mathcal{$1}$0
+	\mathcal{$1}$2
 
 snippet mbf "mathbf"
-	\mathbf{$1}$0
+	\mathbf{$1}$2
 
 snippet cite "cite"
-	\cite[$1]{$2}$0
+	\cite[$1]{$2}$3
 
+snippet ex "Expectation Operator"
+	\E($1)$2
+
+snippet var "Variance Operator"
+	\Var($1)$2
+
+snippet cov "Covariance Operator"
+	\Cov($1, $2)$3
+
+snippet ind "Indicator"
+	\mathbf{1}\{$1\}$2

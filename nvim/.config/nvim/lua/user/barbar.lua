@@ -11,8 +11,8 @@ map('n', '<leader>l', ' :BufferMoveNext<CR>', opts)
 
 
 -- Goto buffer in position...
-for i=1,10 do
-    map('n', "<leader>"..i, ':BufferGoto '..i ..'<CR>', opts)
+for i = 1, 10 do
+  map('n', "<A-" .. i .. ">", ':BufferGoto ' .. i .. '<CR>', opts)
 end
 
 map('n', '<leader>c', ':BufferClose<CR>', opts)
@@ -24,9 +24,9 @@ map('n', '<leader>x', ':BufferCloseAllButCurrent<CR>', opts)
 --                 :BufferCloseBuffersLeft<CR>
 --                 :BufferCloseBuffersRight<CR>
 -- Magic buffer-picking mode
+-- this is a buffer kalled buffer.
 map('n', '<leader>bb', ':BufferPick<CR>', opts)
 -- Sort automatically by...
-map('n', '<Space>bn', ':BufferOrderByBufferNumber<CR>', opts)
-map('n', '<Space>bd', ':BufferOrderByDirectory<CR>', opts)
-map('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
-
+map('n', '<leader>bn', ':BufferOrderByBufferNumber<CR>', opts)
+map('n', '<leader>bd', ':BufferOrderByDirectory<CR>', opts)
+map('n', '<leader>bl', ':BufferOrderByLanguage<CR>', opts)

@@ -1,4 +1,4 @@
-local opts = {noremap = true, silent = true}
+local opts = { noremap = true, silent = true }
 
 local keymap = vim.api.nvim_set_keymap
 
@@ -8,7 +8,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 --Press jj for normal mode
-keymap("i","jj", "<Esc>", opts)
+keymap("i", "jj", "<Esc>", opts)
 
 -- Move line or visually seleted block
 keymap("v", "<C-j>", ":m '>+1<CR>==gv", opts)
@@ -46,9 +46,9 @@ keymap("n", "<Leader>O", 'O<Esc>0"_D', opts)
 
 -- Blocks
 keymap("n", "<Leader>mb", '[m', opts) -- Beginning of previous block
-keymap("n", "<Leader>mB", '[M', opts) -- End of previous block 
+keymap("n", "<Leader>mB", '[M', opts) -- End of previous block
 keymap("n", "<Leader>nb", ']m', opts) -- Beginning of next block
-keymap("n", "<Leader>nB", ']M', opts) -- End of next block 
+keymap("n", "<Leader>nB", ']M', opts) -- End of next block
 
 keymap("n", "<Leader>mf", '[{', opts) -- beginning of current block
 keymap("n", "<Leader>mF", '[[', opts)
@@ -57,4 +57,3 @@ keymap("n", "<Leader>nF", ']]', opts)
 
 -- Nvim Tree
 keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)
-
