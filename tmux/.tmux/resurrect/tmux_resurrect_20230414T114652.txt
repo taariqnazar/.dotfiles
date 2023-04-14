@@ -1,0 +1,78 @@
+pane	cpp_finance	1	0	:-	1	:/Users/tana2011/Projects/pricing-engine	1	zsh	:grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox -H #include BlackScholesModel.h ./src/*.cpp\012
+nvim makefile
+pane	cpp_finance	2	1	:*	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim	1	zsh	:
+pane	notes	1	0	:-	1	:/Users/tana2011/Documents/SU/project1/draft	1	nvim	:nvim /Users/tana2011/Documents/SU/notes/notes.tex .
+nvim draft.tex
+rs
+nvim test.tex
+pane	notes	3	0	:	1	:/Users/tana2011/Documents/SU/project1/draft	1	zathura	:/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+zathura draft.pdf
+pane	notes	4	1	:*	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim	1	zsh	:
+pane	trading-system	1	0	:	1	:/Users/tana2011/Projects/trading-system	1	nvim	:nvim docker-compose.yml
+pane	trading-system	2	0	:	1	:/Users/tana2011/Projects/trading-system	1	zsh	:
+pane	trading-system	3	0	:	1	:/Users/tana2011/Projects/trading-system/strategies/ewa	1	zsh	:python src/main.py
+python src/main.py
+python src/main.py
+pane	trading-system	4	0	:	1	:/Users/tana2011/Projects/trading-system/strategies/ewa	1	python3.10	:/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+pane	trading-system	5	0	:-	1	:/Users/tana2011	1	zsh	:
+pane	trading-system	6	0	:	1	:/Users/tana2011	1	zsh	:
+pane	trading-system	7	1	:*	1	:/Users/tana2011/.dotfiles	1	zsh	:
+pane	webapp	1	1	:*	1	:/Users/tana2011/Projects/webapp/blog	1	zsh	:nvim .
+nvim nuxt.config.ts
+nvim .
+nvim .
+node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js dev
+/Users/tana2011/opt/anaconda3/envs/ts/bin/python /Users/tana2011/opt/anaconda3/envs/ts/bin/jupyter-lab
+pane	webapp	2	0	:-	1	:/Users/tana2011/Projects/webapp/blog	1	node	:npm run dev   
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev   
+npm run dev   
+npm run dev   
+npm run dev   
+npm run dev   
+npm run dev   
+npm run dev   
+npm run dev -o     
+npm run dev -o     
+npm run dev   
+npm run dev   
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev   
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+npm run dev -o     
+window	cpp_finance	1	:main	0	:-	65d5,130x29,0,0,16	off
+window	cpp_finance	2	:nvim	1	:*	65d7,130x29,0,0,18	off
+window	notes	1	:nvim	0	:-	6881,98x59,0,0,12	:
+window	notes	3	:zathura	0	:	6885,98x59,0,0,73	off
+window	notes	4	:snippets	1	:*	693a,122x59,0,0,59	off
+window	trading-system	1	:compose	0	:	5cda,138x33,0,0,97	off
+window	trading-system	2	:zsh	0	:	ae9a,138x33,0,0,103	:
+window	trading-system	3	:ewa	0	:	65d8,130x29,0,0,95	off
+window	trading-system	4	:python3.10	0	:	5cdb,138x33,0,0,98	:
+window	trading-system	5	:zsh	0	:-	b31f,130x29,0,0,108	:
+window	trading-system	6	:zsh	0	:	3318,130x29,0,0,110	:
+window	trading-system	7	:zsh	1	:*	3319,130x29,0,0,111	:
+window	webapp	1	:code	1	:*	65d2,130x29,0,0,70	off
+window	webapp	2	:run	0	:-	65db,130x29,0,0,79	off
+state	notes	trading-system
