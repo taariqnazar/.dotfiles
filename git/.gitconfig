@@ -1,3 +1,8 @@
 [user]
-	email = tariq.nazar13@gmail.com
-	name = Tariq
+	email = 51823781+taariqnazar@users.noreply.github.com
+	name = taariqnazar
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

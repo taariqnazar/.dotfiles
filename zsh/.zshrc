@@ -106,28 +106,27 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
 alias vim="nvim"
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias kssh="kitty +kitten ssh"
+alias pi="ssh pi@192.168.0.103"
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-alias notes="vim ~/Documents/SU/notes/notes.tex"
 alias cargo="~/.cargo/bin/cargo"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/tana2011/opt/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/tana2011/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/tana2011/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/tana2011/opt/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/Users/tana2011/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/tana2011/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/tana2011/opt/anaconda3/bin:$PATH"
+        export PATH="/Users/tana2011/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
