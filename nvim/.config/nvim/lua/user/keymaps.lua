@@ -29,10 +29,10 @@ keymap("v", "J", "<C-d>zz", opts)
 keymap("v", "K", "<C-u>zz", opts)
 --
 -- Move split panes
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+keymap("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", opts)
+keymap("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", opts)
+keymap("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", opts)
+keymap("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", opts)
 
 -- Move between panes
 keymap("n", "<A-h>", "<A-w>h", opts)
@@ -45,15 +45,15 @@ keymap("n", "<Leader>o", 'o<Esc>0"_D', opts)
 keymap("n", "<Leader>O", 'O<Esc>0"_D', opts)
 
 -- Blocks
-keymap("n", "<Leader>mb", '[m', opts) -- Beginning of previous block
-keymap("n", "<Leader>mB", '[M', opts) -- End of previous block
-keymap("n", "<Leader>nb", ']m', opts) -- Beginning of next block
-keymap("n", "<Leader>nB", ']M', opts) -- End of next block
+keymap("n", "<Leader>mb", "[m", opts) -- Beginning of previous block
+keymap("n", "<Leader>mB", "[M", opts) -- End of previous block
+keymap("n", "<Leader>nb", "]m", opts) -- Beginning of next block
+keymap("n", "<Leader>nB", "]M", opts) -- End of next block
 
-keymap("n", "<Leader>mf", '[{', opts) -- beginning of current block
-keymap("n", "<Leader>mF", '[[', opts)
-keymap("n", "<Leader>nf", ']}', opts) -- end of current block
-keymap("n", "<Leader>nF", ']]', opts)
+keymap("n", "<Leader>mf", "[{", opts) -- beginning of current block
+keymap("n", "<Leader>mF", "[[", opts)
+keymap("n", "<Leader>nf", "]}", opts) -- end of current block
+keymap("n", "<Leader>nF", "]]", opts)
 
 -- Nvim Tree
 keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)

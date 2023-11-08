@@ -40,7 +40,7 @@ local lsp_flags = {
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-local servers = { "pyright", "lua_ls", "golangci_lint_ls", "gopls", "ccls", "vuels" }
+local servers = { "pyright", "lua_ls", "golangci_lint_ls", "gopls", "ccls", "vuels", "rust_analyzer" }
 for _, lsp in pairs(servers) do
 	require("lspconfig")[lsp].setup({
 		on_attach = on_attach,

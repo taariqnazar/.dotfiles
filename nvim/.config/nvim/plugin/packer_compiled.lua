@@ -215,6 +215,11 @@ _G.packer_plugins = {
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/vim-startify",
     url = "https://github.com/mhinz/vim-startify"
   },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
   vimtex = {
     loaded = true,
     path = "/Users/tana2011/.local/share/nvim/site/pack/packer/start/vimtex",

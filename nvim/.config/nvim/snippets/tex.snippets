@@ -1,14 +1,17 @@
 #My snippets
 snippet begin
-	\begin{$1}
-	$2
+	\begin{$1}$2
+	$3
 	\end{$1}
 
 snippet geq
-	\geq 
+	\geq $1
 
 snippet leq
-	\leq 
+	\leq $1
+
+snippet inf 
+	\infty $1
 
 snippet int
 	\int_{$1}^{$2}
@@ -24,14 +27,61 @@ snippet al
 		$1
 	\end{align*}
 	
-
 snippet nal
 	\begin{align}
 		$1
 	\end{align}
 
+snippet rm 
+	\textrm{$1} $2
+
+snippet _ "subindex"
+	_{$1}$2
+
+snippet ^ "subindex"
+	^{$1}$2
+
+snippet to "right arrow to"
+	\to $1 
+
+snippet toi "to infinity"
+	\to \infty $1 
+
+snippet phi
+	\phi$1
+
+snippet mu
+	\mu$1
+
+snippet ep
+	\epsilon$1
+
+snippet sig
+	\sigma
+
+snippet pi 
+	\pi
+
+snippet omega
+	\omega
+
+snippet in 
+	\in 
+
+snippet set 
+	\{$1 \\}
+
 snippet ie
-	\( $1 \)$2
+	$ $1 $$2
+
+snippet ; "space"
+	\; $1
+
+snippet quad "larger space"
+	\quad $1
+
+snippet bar 
+	\bar{$1}$2
 
 snippet cal "Math Cal"
 	\mathcal{$1}$2
@@ -39,17 +89,61 @@ snippet cal "Math Cal"
 snippet mbf "mathbf"
 	\mathbf{$1}$2
 
+snippet bf 
+	\textbf{$1}$2
+
 snippet cite "cite"
 	\cite[$1]{$2}$3
 
+snippet pr "Probability"
+	\P($1)$2
+
 snippet ex "Expectation Operator"
-	\E($1)$2
+	\E \left( $1 \right)$2
 
 snippet var "Variance Operator"
-	\Var($1)$2
+	\Var\left( $1 \right)$2
 
 snippet cov "Covariance Operator"
-	\Cov($1, $2)$3
+	\Cov \left($1, $2 \right)$3
 
 snippet ind "Indicator"
-	\mathbf{1}\{$1\}$2
+	\mathbf{1}_{ $1 }$2
+
+snippet lim
+	\lim_{$1}$2
+
+snippet lims
+	\limsup_{$1}$2
+
+snippet limi
+	\liminf_{$1}$2
+
+snippet abs
+	|$1|$2
+
+snippet cdot 
+	\cdot$1
+
+snippet dots
+	\dots$1
+
+snippet cdots
+	\cdots$1
+
+snippet _
+	_{$1}$2
+
+snippet ^
+	^{$1}$2
+
+snippet brac
+	\left[ $1 \right]$2
+snippet cbrac
+	\left{ $1 \right}$2
+
+snippet nl 
+	\\$1
+
+snippet partd
+	\frac{\partial$1}{\partial $2}$3
