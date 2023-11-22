@@ -27,7 +27,7 @@ keymap("n", "J", "<C-d>zz", opts)
 keymap("n", "K", "<C-u>zz", opts)
 keymap("v", "J", "<C-d>zz", opts)
 keymap("v", "K", "<C-u>zz", opts)
---
+
 -- Move split panes
 keymap("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", opts)
 keymap("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", opts)
