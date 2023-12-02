@@ -19,6 +19,8 @@ local options = {
 	swapfile = false,
 	backupdir = "~/.cache/vim",
 	textwidth = 80,
+	termguicolors = true,
+	bg = "dark",
 }
 
 for k, v in pairs(options) do
@@ -26,6 +28,7 @@ for k, v in pairs(options) do
 end
 
 vim.g["sneak#streak"] = 1
+vim.g.gruvbox_contrast_dark = "hard"
 
 vim.cmd([[set termguicolors]])
 vim.cmd([[

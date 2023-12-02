@@ -57,3 +57,6 @@ keymap("n", "<Leader>nF", "]]", opts)
 
 -- Nvim Tree
 keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)
+
+-- Open command
+keymap("n", "<leader>z", ":!zathura .vimtex/%:r.pdf &<cr><cr>", opts)
