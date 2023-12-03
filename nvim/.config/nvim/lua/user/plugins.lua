@@ -42,15 +42,16 @@ packer.init({
 return packer.startup(function(use)
 	-- My plugins here
 	use("wbthomason/packer.nvim") -- Have packer manage itself
-	use("justinmk/vim-sneak")
-	use("mhinz/vim-startify")
 	use("jiangmiao/auto-pairs")
 	use("nvim-lua/plenary.nvim")
 	use("nvim-lualine/lualine.nvim")
-	use("romgrk/barbar.nvim")
 	use("norcalli/nvim-colorizer.lua")
 	use("nvim-tree/nvim-tree.lua")
-
+	-- Start Dashboard
+	use({
+		"goolord/alpha-nvim",
+		requires = { "nvim-tree/nvim-web-devicons" },
+	})
 	-- snippets
 	use({ "L3MON4D3/LuaSnip" })
 
@@ -71,12 +72,6 @@ return packer.startup(function(use)
 	-- Appearance
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
 	use("onsails/lspkind-nvim")
-	--use({
-	--	"morhetz/gruvbox",
-	--	config = function()
-	--		vim.cmd.colorscheme("gruvbox")
-	--	end,
-	--})
 	use("ellisonleao/gruvbox.nvim")
 	use("ryanoasis/vim-devicons")
 	use("kyazdani42/nvim-web-devicons")
@@ -86,6 +81,7 @@ return packer.startup(function(use)
 
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim", requires = { { "nvim-lua/plenary.nvim" } } })
+
 	-- Git
 	use("tpope/vim-fugitive")
 	use("tpope/vim-rhubarb")
@@ -93,7 +89,6 @@ return packer.startup(function(use)
 	-- Latex
 	use("lervag/vimtex")
 
-	use("christoomey/vim-tmux-navigator")
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

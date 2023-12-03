@@ -11,23 +11,24 @@ local colors = {
   fg2      = '#d5c4a1',
   fg3      = '#bdae93',
   fg4      = '#a89984',
-  bg0      = '#282828',
+  bg0      = '#0E1018',
   bg1      = '#3c3836',
   bg2      = '#504945',
   bg3      = '#665c54',
   bg4      = '#7c6f64',
-  gray     = "#a89984",
+  gray     = "#666A86",
   bg       = '#32302f',
   fg       = '#bbc2cf',
   yellow   = '#fabd2f',
   cyan     = '#008080',
   darkblue = '#081633',
-  green    = '#8ec07c',
+  green    = '#87C38F',
   orange   = '#fe8019',
   violet   = '#b16286',
   magenta  = '#d3869b',
   blue     = '#83a598',
-  red      = '#fb4934',
+  red      = '#D72638',
+  bg_test  = "#191C2A",
 }
 
 local conditions = {
@@ -54,8 +55,8 @@ local config = {
 			-- We are going to use lualine_c an lualine_x as left and
 			-- right section. Both are highlighted by c theme .  So we
 			-- are just setting default looks o statusline
-			normal = { c = { fg = colors.fg, bg = colors.bg } },
-			inactive = { c = { fg = colors.fg, bg = colors.bg } },
+			normal = { c = { fg = colors.fg, bg = colors.bg_test } },
+			inactive = { c = { fg = colors.fg, bg = colors.bg_test } },
 		},
 	},
 	sections = {
@@ -91,7 +92,7 @@ end
 
 ins_left({
 	"mode",
-	color = { fg = colors.bg0, bg = colors.gray, gui = "bold" },
+	color = { fg = colors.bg_test, bg = colors.gray, gui = "bold" },
 })
 
 ins_left({

@@ -56,7 +56,7 @@ keymap("n", "<Leader>nf", "]}", opts) -- end of current block
 keymap("n", "<Leader>nF", "]]", opts)
 
 -- Nvim Tree
-keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<C-n>", ":NvimTreeFocus<CR>", opts)
 
 -- Open command
 keymap("n", "<leader>z", ":!zathura .vimtex/%:r.pdf &<cr><cr>", opts)
