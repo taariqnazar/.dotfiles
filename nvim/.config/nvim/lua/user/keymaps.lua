@@ -29,16 +29,10 @@ keymap("v", "J", "<C-d>zz", opts)
 keymap("v", "K", "<C-u>zz", opts)
 
 -- Move split panes
-keymap("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", opts)
-keymap("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", opts)
-keymap("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", opts)
-keymap("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", opts)
-
--- Move between panes
-keymap("n", "<A-h>", "<A-w>h", opts)
-keymap("n", "<A-j>", "<A-w>j", opts)
-keymap("n", "<A-k>", "<A-w>k", opts)
-keymap("n", "<A-l>", "<A-w>l", opts)
+--keymap("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", opts)
+--keymap("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", opts)
+--keymap("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", opts)
+--keymap("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", opts)
 
 -- New line
 keymap("n", "<Leader>o", 'o<Esc>0"_D', opts)
@@ -59,4 +53,4 @@ keymap("n", "<Leader>nF", "]]", opts)
 keymap("n", "<C-n>", ":NvimTreeFocus<CR>", opts)
 
 -- Open command
-keymap("n", "<leader>z", ":!zathura .vimtex/%:r.pdf &<cr><cr>", opts)
+keymap("n", "<leader>za", ":!zathura '.vimtex/%:r.pdf' &<cr><cr>", opts)

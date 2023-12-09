@@ -47,6 +47,7 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 	use("norcalli/nvim-colorizer.lua")
 	use("nvim-tree/nvim-tree.lua")
+	use("christoomey/vim-tmux-navigator")
 	-- Start Dashboard
 	use({
 		"goolord/alpha-nvim",

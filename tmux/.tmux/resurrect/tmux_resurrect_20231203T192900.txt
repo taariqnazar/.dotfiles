@@ -1,0 +1,11 @@
+pane	mt4007	1	0	:	1	:/Users/tana2011/Documents/SU/teaching/mt4007/website	1	nvim	:nvim lectures/9.md
+pane	mt4007	2	0	:	1	:/Users/tana2011/Documents/SU/teaching/mt4007/website	1	node	:npm run docs:dev   
+pane	mt4007	3	1	:*	1	:/Users/tana2011/.dotfiles	1	zsh	:
+pane	mt4007	4	0	:	1	:/Users/tana2011/.dotfiles/kitty	1	nvim	:nvim .config/kitty/theme.conf
+pane	mt4007	5	0	:-	1	:/Users/tana2011/.dotfiles/nvim/.config/nvim	1	zsh	:
+window	mt4007	1	:nvim	0	:	c73d,130x47,0,0,0	:
+window	mt4007	2	:node	0	:	c93e,172x47,0,0,1	:
+window	mt4007	3	:zsh	1	:*	c93f,172x47,0,0,2	:
+window	mt4007	4	:nvim	0	:	c940,172x47,0,0,3	:
+window	mt4007	5	:zsh	0	:-	c943,172x47,0,0,6	:
+state	mt4007	
