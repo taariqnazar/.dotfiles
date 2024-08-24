@@ -46,7 +46,6 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 	use("nvim-lualine/lualine.nvim")
 	use("norcalli/nvim-colorizer.lua")
-	use("nvim-tree/nvim-tree.lua")
 	use("christoomey/vim-tmux-navigator")
 	-- Start Dashboard
 	use({
@@ -54,7 +53,13 @@ return packer.startup(function(use)
 		requires = { "nvim-tree/nvim-web-devicons" },
 	})
 	-- snippets
-	use({ "L3MON4D3/LuaSnip" })
+	use({
+		"L3MON4D3/LuaSnip",
+		-- follow latest release.
+		tag = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+		-- install jsregexp (optional!:).
+		run = "make install_jsregexp",
+	})
 
 	-- CMP & LSP
 	use("williamboman/nvim-lsp-installer")
@@ -66,7 +71,6 @@ return packer.startup(function(use)
 		"hrsh7th/cmp-cmdline",
 		"hrsh7th/nvim-cmp",
 		"saadparwaiz1/cmp_luasnip",
-		"jose-elias-alvarez/null-ls.nvim",
 		"MunifTanjim/prettier.nvim",
 	})
 
@@ -74,6 +78,12 @@ return packer.startup(function(use)
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
 	use("onsails/lspkind-nvim")
 	use("ellisonleao/gruvbox.nvim")
+  use({
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+})
 	use("ryanoasis/vim-devicons")
 	use("kyazdani42/nvim-web-devicons")
 	use("nvim-treesitter/nvim-treesitter")
@@ -82,6 +92,7 @@ return packer.startup(function(use)
 
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim", requires = { { "nvim-lua/plenary.nvim" } } })
+	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
 
 	-- Git
 	use("tpope/vim-fugitive")

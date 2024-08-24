@@ -1,26 +1,9 @@
-#My snippets
-snippet begin
-	\begin{$1}$2
-	$3
-	\end{$1}
+##################################################
+#@GENERAL
+##################################################
 
-snippet geq
-	\geq $1
-
-snippet leq
-	\leq $1
-
-snippet inf 
-	\infty $1
-
-snippet int
-	\int_{$1}^{$2}
-
-snippet sum
-	\sum_{$1}^{$2}
-
-snippet frac
-	\frac{$1}{$2}
+snippet mk
+	$ $1 $$2
 
 snippet al
 	\begin{align*}
@@ -32,47 +15,87 @@ snippet nal
 		$1
 	\end{align}
 
-snippet rm 
-	\textrm{$1} $2
+snippet section "Section"
+	\section{$1}$2
+	$3
 
-snippet _ "subindex"
+snippet subsection "Sub section"
+	\subsection{$1}$2
+	$3
+
+snippet subsubsection "Subsub section"
+	\subsubsection{$1}$2
+	$3
+
+snippet begin "begin and end"
+	\begin{$1}
+	$3
+	\end{$1}
+
+snippet td
 	_{$1}$2
 
-snippet ^ "subindex"
+snippet tu
 	^{$1}$2
 
-snippet to "right arrow to"
-	\to $1 
+snippet bar 
+	\bar{$1}$2
 
-snippet toi "to infinity"
-	\to \infty $1 
+snippet citep "cite with brackets for pages"
+	\cite[$1]{$2}$3
 
-snippet phi
-	\phi$1
+snippet cite "cite"
+	\cite{$1}$2
 
-snippet mu
-	\mu$1
+snippet lab
+	\label{$1}$2
 
-snippet ep
-	\epsilon$1
+snippet int
+	\int_{$1}^{$2}
 
-snippet sig
-	\sigma
+snippet sum
+	\sum_{$1}^{$2}
 
-snippet pi 
-	\pi
+snippet frac
+	\frac{$1}{$2}
 
-snippet omega
-	\omega
+snippet lim
+	\lim_{$1}$2
 
-snippet in 
-	\in 
+snippet limsup
+	\limsup_{$1}$2
 
-snippet set 
-	\{$1 \\}
+snippet liminf
+	\liminf_{$1}$2
 
-snippet ie
-	$ $1 $$2
+snippet abs
+	|$1|$2
+
+snippet partd
+	\frac{\partial$1}{\partial $2}$3
+
+
+##################################################
+#@TEXT 
+##################################################
+
+snippet mcal "Math Cal"
+	\mathcal{$1}$2
+
+snippet mbf "mathbf"
+	\mathbf{$1}$2
+
+snippet mbb "mathbb"
+	\mathbb{$1}$2
+
+snippet bf 
+	\textbf{$1}$2
+
+snippet it 
+	\textit{$1}$2
+
+snippet rm 
+	\textrm{$1} $2
 
 snippet ; "space"
 	\; $1
@@ -80,23 +103,12 @@ snippet ; "space"
 snippet quad "larger space"
 	\quad $1
 
-snippet bar 
-	\bar{$1}$2
-
-snippet cal "Math Cal"
-	\mathcal{$1}$2
-
-snippet mbf "mathbf"
-	\mathbf{$1}$2
-
-snippet bf 
-	\textbf{$1}$2
-
-snippet cite "cite"
-	\cite[$1]{$2}$3
+##################################################
+#@SYMBOLS 
+##################################################
 
 snippet pr "Probability"
-	\P($1)$2
+	\mathbb{P}($1)$2
 
 snippet ex "Expectation Operator"
 	\E \left( $1 \right)$2
@@ -110,40 +122,73 @@ snippet cov "Covariance Operator"
 snippet ind "Indicator"
 	\mathbf{1}_{ $1 }$2
 
-snippet lim
-	\lim_{$1}$2
+snippet to "right arrow to"
+	\to $1 
 
-snippet lims
-	\limsup_{$1}$2
+snippet toi "to infinity"
+	\to \infty $1 
 
-snippet limi
-	\liminf_{$1}$2
+snippet inf 
+	\infty $1
 
-snippet abs
-	|$1|$2
+snippet geq
+	\geq $1
 
-snippet cdot 
-	\cdot$1
+snippet leq
+	\leq $1
+snippet phi
+	\phi $1
+
+snippet mu
+	\mu $1
+
+snippet ep
+	\epsilon $1
+
+snippet sig
+	\sigma $1
+
+snippet pi 
+	\pi $1
+
+snippet omega
+	\omega $1
+
+snippet alpha
+	\alpha $1
+
+snippet in 
+	\in  $1
+
+snippet sbrac
+	\left($1 \right)$2
+
+snippet sbrac
+	\left[ $1 \right]$2
+
+snippet set
+	\left\{ $1 \right\}$2
 
 snippet dots
-	\dots$1
+	\dots $1
+
+snippet cdot 
+	\cdot $1
 
 snippet cdots
-	\cdots$1
+	\cdots $1
 
-snippet _
-	_{$1}$2
+snippet hat
+	\hat{$1}$2
 
-snippet ^
-	^{$1}$2
+snippet what
+	\widehat{$1}$2
 
-snippet brac
-	\left[ $1 \right]$2
-snippet cbrac
-	\left{ $1 \right}$2
+snippet bar
+	\overline{$1}$2
 
-snippet nl 
-	\\$1
+snippet tilde
+	\tilde{$1}$2
 
-snippet partd
-	\frac{\partial$1}{\partial $2}$3
+snippet wtilde
+	\widetilde{$1}$2
