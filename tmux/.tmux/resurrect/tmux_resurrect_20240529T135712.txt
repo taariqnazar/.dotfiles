@@ -1,0 +1,21 @@
+pane	passrapport	1	1	:*	1	:/Users/tana2011/Projects/pass_rapport	1	zsh	:
+pane	research	1	1	:*	1	:/Users/tana2011/Documents/SU/covariance_penalties/code/simstudy	1	zsh	:python signal_sample_test.py
+python signal_sample_test.py
+pane	research	2	0	:-	1	:/Users/tana2011/Documents/SU/covariance_penalties/code/simstudy	1	nvim	:nvim signal_sample_test.py
+pane	research	3	0	:	1	:/Users/tana2011/Documents	1	zsh	:
+pane	trading	1	0	:	1	:/Users/tana2011/Projects/quanor/trading-engine	1	zsh	:
+pane	trading	2	1	:*	1	:/Users/tana2011/Projects/quanor/trading-engine/execution/src	1	nvim	:nvim ibtrader.py
+python
+python execution/src/main.py
+python main.py
+python main.py
+pane	trading	3	0	:-	1	:/Users/tana2011/Projects/quanor/trading-engine/execution/src	1	zsh	:python strategy.sim.py
+python strategy.sim.py
+window	passrapport	1	:[tmux]	1	:*	c49e,98x56,0,0,1	:
+window	research	1	:zsh	1	:*	c49f,98x56,0,0,2	:
+window	research	2	:nvim	0	:-	c4a0,98x56,0,0,3	:
+window	research	3	:zsh	0	:	c4a6,98x56,0,0,9	:
+window	trading	1	:run	0	:	b341,138x41,0,0,4	off
+window	trading	2	:nvim	1	:*	bca4,94x26,0,0,7	:
+window	trading	3	:zsh	0	:-	602f,126x35,0,0,10	:
+state	research	passrapport
