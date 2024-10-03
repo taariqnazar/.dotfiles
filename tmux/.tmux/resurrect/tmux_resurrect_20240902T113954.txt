@@ -1,0 +1,14 @@
+pane	quanor	1	0	:	1	:/Users/tana2011/Projects/quanor/trading-engine	1	zsh	:nvim ls
+minikube tunnel status
+kubectl port-forward svc/kafka 8888:9092
+minikube start
+pane	quanor	2	1	:*	1	:/Users/tana2011/Projects/quanor/trading-engine	1	zsh	:
+pane	quanor	3	0	:-	1	:/Users/tana2011/Projects/quanor/trading-engine/execution/src	1	zsh	:python diff.py
+pane	rl	1	1	:*	1	:/Users/tana2011/Documents/su/research/rl-exploration/notes	1	nvim	:nvim notes.tex
+pane	rl	2	0	:-	1	:/Users/tana2011/Documents/su/research/rl-exploration/notes	1	zsh	:
+window	quanor	1	:zsh	0	:	bb40,172x53,0,0,3	:
+window	quanor	2	:zsh	1	:*	bb43,172x53,0,0,6	:
+window	quanor	3	:zsh	0	:-	5dd2,172x53,0,0,13	:
+window	rl	1	:[tmux]	1	:*	bb3d,172x53,0,0,0	:
+window	rl	2	:zsh	0	:-	cf3e,130x49,0,0,1	:
+state	quanor	

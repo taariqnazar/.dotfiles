@@ -47,11 +47,15 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 	use("norcalli/nvim-colorizer.lua")
 	use("christoomey/vim-tmux-navigator")
+  --
 	-- Start Dashboard
-	use({
-		"goolord/alpha-nvim",
-		requires = { "nvim-tree/nvim-web-devicons" },
-	})
+use {
+    'goolord/alpha-nvim',
+    requires = { 'echasnovski/mini.icons' },
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.startify'.config)
+    end
+}
 	-- snippets
 	use({
 		"L3MON4D3/LuaSnip",
@@ -75,7 +79,6 @@ return packer.startup(function(use)
 	})
 
 	-- Appearance
-	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
 	use("onsails/lspkind-nvim")
 	use("ellisonleao/gruvbox.nvim")
   use({
@@ -93,13 +96,17 @@ return packer.startup(function(use)
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim", requires = { { "nvim-lua/plenary.nvim" } } })
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
-
+  
 	-- Git
 	use("tpope/vim-fugitive")
 	use("tpope/vim-rhubarb")
 
 	-- Latex
 	use("lervag/vimtex")
+
+  -- Markdown
+  use("wallpants/github-preview.nvim")
+  --
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

@@ -2,7 +2,7 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 require("user.options")
-require("user.plugins")
+--require("user.plugins")
 require("user.lualine")
 require("user.telescope")
 --require("user.appearance")
@@ -17,4 +17,5 @@ require("user.vimtex")
 require("user.keymaps")
 require("user.blankline")
 require("user.dashboard")
+require("user.githubpreview")
 --require("user.nvim_tree")

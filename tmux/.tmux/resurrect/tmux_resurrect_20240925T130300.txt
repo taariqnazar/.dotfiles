@@ -1,0 +1,18 @@
+pane	blog	1	0	:-	1	:/Users/tana2011/Documents/blogposts	1	zsh	:
+pane	blog	2	1	:*	1	:/Users/tana2011/Documents/blogposts/webscraping_with_python	1	nvim	:nvim README.md
+pane	quanor	1	1	:*	1	:/Users/tana2011/Projects/quanor/quanorlib	1	zsh	:
+pane	quanor	2	0	:-	1	:/Users/tana2011/Projects/quanor/trading-engine	1	zsh	:python execution/src/main.py
+python execution/src/main.py
+pane	rl	1	0	:-	1	:/Users/tana2011/Documents/su/research/rl-exploration/notes	1	nvim	:nvim notes.tex
+pane	rl	2	1	:*	1	:/Users/tana2011/Documents/su/research/rl-exploration/notes	1	zsh	:
+pane	trees	1	1	:*	1	:/Users/tana2011/Documents/su/research/boosting_trees/notes	1	nvim	:nvim notes_on_trees.tex
+pane	trees	2	0	:-	1	:/Users/tana2011/Documents/su/research	1	nvim	:nvim rl-exploration/notes/notes.tex
+window	blog	1	:zsh	0	:-	680f,131x49,0,0,10	:
+window	blog	2	:nvim	1	:*	cfc6,131x49,0,0,9	:
+window	quanor	1	:zsh	1	:*	cfbe,131x49,0,0,1	:
+window	quanor	2	:zsh	0	:-	cfc0,131x49,0,0,3	:
+window	rl	1	:nvim	0	:-	cf41,130x49,0,0,4	:
+window	rl	2	:zsh	1	:*	cf42,130x49,0,0,5	:
+window	trees	1	:nvim	1	:*	cf44,130x49,0,0,7	:
+window	trees	2	:nvim	0	:-	cf45,130x49,0,0,8	:
+state	quanor	blog

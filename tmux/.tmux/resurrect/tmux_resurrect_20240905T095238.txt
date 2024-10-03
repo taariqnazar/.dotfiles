@@ -1,0 +1,15 @@
+pane	quanor	1	1	:*	1	:/Users/tana2011/Projects/quanor/trading-engine/nats	1	zsh	:
+pane	quanor	2	0	:-	1	:/Users/tana2011/Projects/quanor/trading-engine	1	zsh	:
+pane	quanor	3	0	:	1	:/Users/tana2011/Projects/quanor/trading-engine	1	zsh	:
+pane	rl	1	0	:-	1	:/Users/tana2011/Documents/su/research/rl-exploration/notes	1	nvim	:nvim notes.tex
+pane	rl	2	1	:*	1	:/Users/tana2011/Documents/su/research/rl-exploration/notes	1	zsh	:
+pane	trees	1	1	:*	1	:/Users/tana2011/Documents/su/research/boosting_trees/notes	1	nvim	:nvim notes_on_trees.tex
+pane	trees	2	0	:-	1	:/Users/tana2011/Documents/su/research	1	nvim	:nvim rl-exploration/notes/notes.tex
+window	quanor	1	:zsh	1	:*	cf3e,130x49,0,0,1	:
+window	quanor	2	:zsh	0	:-	cf3f,130x49,0,0,2	:
+window	quanor	3	:zsh	0	:	cf40,130x49,0,0,3	:
+window	rl	1	:nvim	0	:-	cf41,130x49,0,0,4	:
+window	rl	2	:zsh	1	:*	cf42,130x49,0,0,5	:
+window	trees	1	:nvim	1	:*	cf44,130x49,0,0,7	:
+window	trees	2	:nvim	0	:-	cf45,130x49,0,0,8	:
+state	quanor	trees

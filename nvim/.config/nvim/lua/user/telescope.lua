@@ -96,12 +96,6 @@ telescope.setup({
 })
 telescope.load_extension("fzf")
 
---local keymap = vim.api.nvim_set_keymap
---keymap("n", "ff", "<cmd> lua require('telescope.builtin').find_files()<cr>", opts)
---keymap("n", "fg", "<cmd> lua require('telescope.builtin').live_grep()<cr>", opts)
---keymap("n", "fb", "<cmd> lua require('telescope.builtin').buffers()<cr>", opts)
---keymap("n", "fh", "<cmd> lua require('telescope.builtin').help_tags()<cr>", opts)
-
 local opts = { noremap = true, silent = true }
 local builtin = require("telescope.builtin")
 vim.keymap.set("n", "ff", builtin.find_files, opts)
